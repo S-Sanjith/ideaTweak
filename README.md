@@ -4,6 +4,13 @@ A Linux CLI utility that allows you to configure 3 settings present in Lenovo Id
 **WARNING:** This utility has been tested on a Lenovo IdeaPad 5 15ALC05. I provide no guarantee that ideaTweak will work perfectly on other models. Eventhough this utility should be safe, I am not responsible for any damage caused to any device by this utility.
 
 # Installation
+
+First, install the dependencies for cloning and compilation:
+```
+sudo apt update
+sudo apt install build-essential git
+```
+
 To install the executable into /usr/local/bin/ along with the required permissions, execute the below commands:
 ```
 git clone https://github.com/S-Sanjith/ideaTweak.git
