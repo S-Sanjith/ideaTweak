@@ -1,3 +1,4 @@
+
 # ideaTweak
 A Linux CLI utility that allows you to configure 3 settings present in Lenovo IdeaPad laptops - Conservation Mode, USB Charging, Function Lock  
 
@@ -17,6 +18,14 @@ git clone https://github.com/S-Sanjith/ideaTweak.git
 cd ideaTweak
 sudo sh ./install.sh
 ```
+# Uninstallation
+
+To uninstall ideaTweak, simply run the uninstall.sh script provided in the repository:  
+`sudo sh ./uninstall.sh`
+
+Alternatively, you can directly remove the binary:  
+`sudo rm /usr/local/bin/ideaTweak`
+
 # Usage
 
 To display the usage information after installation, you can execute the below command:  
@@ -28,6 +37,8 @@ Options:
 -f, -f <VALUE>   Set option fn_lock to 0 (off) or 1 (on)  
 -u, -u <VALUE>   Set option usb_charging to 0 (off) or 1 (on)  
 -c, -c <VALUE>   Set option conservation_mode to 0 (off) or 1 (on)  
+-b,              Display information about the battery  
+-s,              Display current status of Conservation Mode, USB Charging and Function Lock  
 -h, --help               Display this help message and exit
 
 For example, to enable conservation mode, use  
@@ -38,3 +49,9 @@ To disable Function Lock, use
 
 To enable USB Charging, use  
 `ideaTweak -u 1`
+
+To view the current status, use  
+`ideaTweak -s`
+
+To view battery information, use  
+`ideaTweak -b`
