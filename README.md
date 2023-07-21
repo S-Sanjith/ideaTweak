@@ -1,6 +1,9 @@
 
 # ideaTweak
-A Linux CLI utility that allows you to configure 3 settings present in Lenovo IdeaPad laptops - Conservation Mode, USB Charging, Function Lock  
+A Linux CLI utility that allows you check the battery status and also configure 3 settings present in Lenovo IdeaPad laptops - Conservation Mode, USB Charging, Function Lock  
+
+This utility has a Cinnamon applet. For more information, check out its repository:  
+https://github.com/S-Sanjith/ideapad-utilities-cinnamon-linux
 
 **WARNING:** This utility has been tested on a Lenovo IdeaPad 5 15ALC05. I provide no guarantee that ideaTweak will work perfectly on other models. Eventhough this utility should be safe, I am not responsible for any damage caused to any device by this utility.
 
